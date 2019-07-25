@@ -6,7 +6,7 @@
 #    By: alkozma <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/13 18:06:36 by alkozma           #+#    #+#              #
-#    Updated: 2019/07/01 16:09:36 by alkozma          ###   ########.fr        #
+#    Updated: 2019/07/06 14:54:14 by alkozma          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ HEADERS = ft_ls.h \
 		  includes/ft_printf.h \
 		  includes/libft.h
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -g
 
 all: $(NAME)
 
